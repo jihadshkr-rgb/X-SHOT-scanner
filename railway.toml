@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python xshot_scannerXX.py"
+restartPolicyType = "always"
+healthcheckPath = "/"
+healthcheckTimeout = 30
